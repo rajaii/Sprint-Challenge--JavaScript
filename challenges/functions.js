@@ -25,7 +25,7 @@ function multiply(x, y) {
   return x * y;
 }
 function greeting(fName, lName) {
-  console.log(`Hello ${fName} ${lName}, nice to meet you!`);
+  console.log(`Hello ${fName} ${lName}, nice to meet you!`)
   return `Hello ${fName} ${lName}, nice to meet you!`;
 }
 
