@@ -17,20 +17,23 @@ function consume(para1, para2, cb) {
   * "Hello first-name last-name, nice to meet you!"
 */
 function add(x, y) {
+  console.log(x + y);
   return x + y;
 }
 function multiply(x, y) {
+  console.log(x * y);
   return x * y;
 }
 function greeting(fName, lName) {
+  console.log(`Hello ${fName} ${lName}, nice to meet you!`);
   return `Hello ${fName} ${lName}, nice to meet you!`;
 }
 
 
 /* Step 3: Check your work by un-commenting the following calls to consume(): */
-console.log(consume(2,2,add)); // 4
-console.log(consume(10,16,multiply)); // 160
-console.log(consume("Mary","Poppins", greeting)); // Hello Mary Poppins, nice to meet you!
+consume(2,2,add); // 4
+consume(10,16,multiply); // 160
+consume("Mary","Poppins", greeting); // Hello Mary Poppins, nice to meet you!
 
 
 // ==== Closures ==== 
